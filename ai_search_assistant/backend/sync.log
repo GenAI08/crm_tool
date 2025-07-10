@@ -1,0 +1,21 @@
+2025-05-27 09:46:11,173 - ERROR - Drive sync failed: Traceback (most recent call last):
+  File "C:\Users\Mani\OneDrive\Documents\ai_search_assistant\backend\driveapi\sync_from_drive.py", line 40, in <module>
+    print(f"\n\U0001f4c4 Processing: {file_name} ({mime_type})")
+  File "C:\Users\Mani\anaconda3\envs\GenAI\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c4' in position 2: character maps to <undefined>
+
+2025-05-27 09:46:11,173 - INFO - Drive sync stdout: Found 5 files.
+
+2025-05-27 09:46:11,180 - INFO -   - AI Engineer Trainee Job Description - Revised.docx
+2025-05-27 09:46:11,180 - INFO -   - apps.docx
+2025-05-27 09:46:11,180 - INFO -   - Business Intelligence Notes 1,2,3.pdf
+2025-05-27 09:46:11,180 - INFO -   - Capital and Revenue (1).pdf
+2025-05-27 09:46:11,180 - INFO -   - cns syllabus.pdf
+2025-05-27 09:46:11,180 - INFO -   - company_policy_manual.pdf
+2025-05-27 09:46:11,182 - INFO -   - MS mid 1 long.pdf
+2025-05-27 09:46:11,182 - INFO -   - MS Syllabus IV - II.pdf
+2025-05-27 09:46:12,824 - INFO -   - doc_metadata.pkl (6364 bytes)
+2025-05-27 09:46:12,829 - INFO -   - index.faiss (215085 bytes)
+2025-05-27 09:46:12,829 - INFO -   - index.pkl (171399 bytes)

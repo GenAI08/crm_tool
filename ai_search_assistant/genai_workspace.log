@@ -1,0 +1,699 @@
+2025-06-02 12:31:29,972 [INFO] GenAI Workspace API starting up...
+2025-06-02 12:31:29,972 [INFO] FAISS index found
+2025-06-02 12:31:29,972 [INFO] Data folder found
+2025-06-02 12:31:29,975 [INFO] Starting background scheduler thread...
+2025-06-02 12:31:30,003 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 12:31:30,004 [INFO] Scheduler initialized
+2025-06-02 12:31:30,004 [INFO] Starting sync at 2025-06-02 12:31:30
+2025-06-02 12:31:30,005 [INFO] Syncing from Google Drive...
+2025-06-02 12:31:31,991 [INFO] Google Drive sync completed
+2025-06-02 12:31:32,002 [INFO] Rebuilding FAISS index...
+2025-06-02 12:31:34,043 [INFO] FAISS index rebuilt successfully
+2025-06-02 12:31:34,044 [INFO] Sync #1 completed successfully
+2025-06-02 12:31:34,044 [INFO] Waiting 24 hours for next sync...
+2025-06-02 12:33:02,687 [INFO] Agent request: hi
+2025-06-02 12:36:02,188 [INFO] Agent request: Remind me to check reports at 5 PM
+2025-06-02 12:46:24,147 [INFO] Scheduler started
+2025-06-02 12:46:24,160 [INFO] GenAI Workspace API starting up...
+2025-06-02 12:46:24,163 [INFO] FAISS index found
+2025-06-02 12:46:24,164 [INFO] Data folder found
+2025-06-02 12:46:24,164 [INFO] Starting background scheduler thread...
+2025-06-02 12:46:24,164 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 12:46:24,164 [INFO] Scheduler initialized
+2025-06-02 12:46:24,164 [INFO] Starting sync at 2025-06-02 12:46:24
+2025-06-02 12:46:24,170 [INFO] Syncing from Google Drive...
+2025-06-02 12:46:27,376 [INFO] Google Drive sync completed
+2025-06-02 12:46:27,385 [INFO] Rebuilding FAISS index...
+2025-06-02 12:46:29,790 [INFO] FAISS index rebuilt successfully
+2025-06-02 12:46:29,792 [INFO] Sync #1 completed successfully
+2025-06-02 12:46:29,792 [INFO] Waiting 24 hours for next sync...
+2025-06-02 12:52:21,637 [INFO] Agent query: Remind me to check the report at 5 PM
+2025-06-02 12:52:25,491 [INFO] Added job "send_email" to job store "default"
+2025-06-02 12:52:25,493 [INFO] Added job "send_webhook_notification" to job store "default"
+2025-06-02 12:52:25,495 [INFO] Scheduled reminder at 2025-06-02 12:53:00
+2025-06-02 12:53:00,006 [INFO] Running job "send_email (trigger: date[2025-06-02 12:53:00 IST], next run at: 2025-06-02 12:53:00 IST)" (scheduled at 2025-06-02 12:53:00+05:30)
+2025-06-02 12:53:00,006 [INFO] Removed job 8c554c35f316485bb49cb54f17268df4
+2025-06-02 12:53:00,008 [INFO] [EMAIL] Subject: Reminder, To: recipient@example.com, Body: Reminder: Remind me to check the report at 5 PM
+2025-06-02 12:53:00,010 [INFO] Job "send_email (trigger: date[2025-06-02 12:53:00 IST], next run at: 2025-06-02 12:53:00 IST)" executed successfully
+2025-06-02 12:53:00,011 [INFO] Running job "send_webhook_notification (trigger: date[2025-06-02 12:53:00 IST], next run at: 2025-06-02 12:53:00 IST)" (scheduled at 2025-06-02 12:53:00+05:30)
+2025-06-02 12:53:00,011 [INFO] Removed job e7cbc0248ff24e278b198c392764aec7
+2025-06-02 12:53:00,013 [WARNING] DISCORD_WEBHOOK_URL not set in environment
+2025-06-02 12:53:00,013 [INFO] Job "send_webhook_notification (trigger: date[2025-06-02 12:53:00 IST], next run at: 2025-06-02 12:53:00 IST)" executed successfully
+2025-06-02 13:02:05,328 [INFO] Agent query: Remind me to email the team tomorrow morning
+2025-06-02 13:02:08,529 [INFO] Added job "send_email" to job store "default"
+2025-06-02 13:02:08,533 [INFO] Added job "send_webhook_notification" to job store "default"
+2025-06-02 13:02:08,535 [INFO] Scheduled reminder at 2025-06-02 13:03:00
+2025-06-02 13:03:00,012 [INFO] Removed job 22f8878f5e074bae90903f7dd799d346
+2025-06-02 13:03:00,012 [INFO] Running job "send_email (trigger: date[2025-06-02 13:03:00 IST], next run at: 2025-06-02 13:03:00 IST)" (scheduled at 2025-06-02 13:03:00+05:30)
+2025-06-02 13:03:00,062 [INFO] Removed job ae7b950771184a5882307095d945cd11
+2025-06-02 13:03:00,065 [INFO] Running job "send_webhook_notification (trigger: date[2025-06-02 13:03:00 IST], next run at: 2025-06-02 13:03:00 IST)" (scheduled at 2025-06-02 13:03:00+05:30)
+2025-06-02 13:03:00,885 [INFO] [EMAIL] Subject: Reminder, To: recipient@example.com, Body: Reminder: Remind me to email the team tomorrow morning
+2025-06-02 13:03:00,887 [INFO] Job "send_email (trigger: date[2025-06-02 13:03:00 IST], next run at: 2025-06-02 13:03:00 IST)" executed successfully
+2025-06-02 13:03:00,888 [WARNING] DISCORD_WEBHOOK_URL not set in environment
+2025-06-02 13:03:01,694 [INFO] Job "send_webhook_notification (trigger: date[2025-06-02 13:03:00 IST], next run at: 2025-06-02 13:03:00 IST)" executed successfully
+2025-06-02 13:20:32,002 [INFO] Scheduler started
+2025-06-02 13:20:32,011 [INFO] GenAI Workspace API starting up...
+2025-06-02 13:20:32,012 [INFO] FAISS index found
+2025-06-02 13:20:32,014 [INFO] Data folder found
+2025-06-02 13:20:32,014 [INFO] Starting background scheduler thread...
+2025-06-02 13:20:32,015 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 13:20:32,015 [INFO] Scheduler initialized
+2025-06-02 13:20:32,017 [INFO] Starting sync at 2025-06-02 13:20:32
+2025-06-02 13:20:32,023 [INFO] Syncing from Google Drive...
+2025-06-02 13:20:35,951 [INFO] Google Drive sync completed
+2025-06-02 13:20:35,953 [INFO] Rebuilding FAISS index...
+2025-06-02 13:20:37,838 [INFO] FAISS index rebuilt successfully
+2025-06-02 13:20:37,841 [INFO] Sync #1 completed successfully
+2025-06-02 13:20:37,841 [INFO] Waiting 24 hours for next sync...
+2025-06-02 13:37:45,042 [INFO] Scheduler started
+2025-06-02 13:37:45,047 [INFO] GenAI Workspace API starting up...
+2025-06-02 13:37:45,055 [INFO] FAISS index found
+2025-06-02 13:37:45,055 [INFO] Data folder found
+2025-06-02 13:37:45,055 [INFO] Starting background scheduler thread...
+2025-06-02 13:37:45,055 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 13:37:45,055 [INFO] Scheduler initialized
+2025-06-02 13:37:45,055 [INFO] Starting sync at 2025-06-02 13:37:45
+2025-06-02 13:37:45,055 [INFO] Syncing from Google Drive...
+2025-06-02 13:37:49,855 [INFO] Google Drive sync completed
+2025-06-02 13:37:49,863 [INFO] Rebuilding FAISS index...
+2025-06-02 13:37:51,836 [INFO] FAISS index rebuilt successfully
+2025-06-02 13:37:51,836 [INFO] Sync #1 completed successfully
+2025-06-02 13:37:51,836 [INFO] Waiting 24 hours for next sync...
+2025-06-02 13:42:14,228 [INFO] Agent query: Remind me to attend the client meeting today at 2 PM
+2025-06-02 13:42:19,277 [INFO] Added job "send_email" to job store "default"
+2025-06-02 13:42:19,302 [INFO] Added job "send_webhook_notification" to job store "default"
+2025-06-02 13:42:19,306 [INFO] Scheduled reminder at 2025-06-02 13:43:00
+2025-06-02 13:43:00,017 [INFO] Running job "send_webhook_notification (trigger: date[2025-06-02 13:43:00 IST], next run at: 2025-06-02 13:43:00 IST)" (scheduled at 2025-06-02 13:43:00+05:30)
+2025-06-02 13:43:00,017 [INFO] Removed job 6fbaf29b718d43fd9738baa40cc21b59
+2025-06-02 13:43:00,022 [WARNING] DISCORD_WEBHOOK_URL not set in environment
+2025-06-02 13:43:00,025 [INFO] Job "send_webhook_notification (trigger: date[2025-06-02 13:43:00 IST], next run at: 2025-06-02 13:43:00 IST)" executed successfully
+2025-06-02 13:43:00,025 [INFO] Running job "send_email (trigger: date[2025-06-02 13:43:00 IST], next run at: 2025-06-02 13:43:00 IST)" (scheduled at 2025-06-02 13:43:00+05:30)
+2025-06-02 13:43:00,025 [INFO] Removed job f72ebd7cd62b4369a9fcdd3d5df88bbc
+2025-06-02 13:43:00,029 [INFO] [EMAIL] Subject: Reminder, To: recipient@example.com, Body: Reminder: Remind me to attend the client meeting today at 2 PM
+2025-06-02 13:43:00,033 [INFO] Job "send_email (trigger: date[2025-06-02 13:43:00 IST], next run at: 2025-06-02 13:43:00 IST)" executed successfully
+2025-06-02 14:03:56,499 [INFO] Scheduler started
+2025-06-02 14:03:56,517 [INFO] GenAI Workspace API starting up...
+2025-06-02 14:03:56,518 [INFO] FAISS index found
+2025-06-02 14:03:56,519 [INFO] Data folder found
+2025-06-02 14:03:56,519 [INFO] Starting background scheduler thread...
+2025-06-02 14:03:56,520 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 14:03:56,520 [INFO] Scheduler initialized
+2025-06-02 14:03:56,520 [INFO] Starting sync at 2025-06-02 14:03:56
+2025-06-02 14:03:56,523 [INFO] Syncing from Google Drive...
+2025-06-02 14:04:00,454 [INFO] Google Drive sync completed
+2025-06-02 14:04:00,462 [INFO] Rebuilding FAISS index...
+2025-06-02 14:04:02,516 [INFO] FAISS index rebuilt successfully
+2025-06-02 14:04:02,516 [INFO] Sync #1 completed successfully
+2025-06-02 14:04:02,516 [INFO] Waiting 24 hours for next sync...
+2025-06-02 14:05:23,442 [INFO] Agent query: schedule a meeting with mokshith8143@gmail.com  today 02/06/2025 at 14:10 pm 
+2025-06-02 14:12:54,865 [INFO] Agent query: send an email for mokshith8143@gmail.com regarding a meeting at 14:20pm today 
+2025-06-02 14:12:55,946 [ERROR] Agent error: send_email() missing 2 required positional arguments: 'subject' and 'body'
+2025-06-02 14:14:14,451 [INFO] Agent query: Remind me to attend the client meeting today at 14:15
+2025-06-02 14:14:16,501 [INFO] Added job "send_email" to job store "default"
+2025-06-02 14:14:16,529 [INFO] Added job "send_webhook_notification" to job store "default"
+2025-06-02 14:14:16,601 [INFO] Scheduled reminder at 2025-06-02 14:15:00
+2025-06-02 14:15:00,026 [INFO] Running job "send_email (trigger: date[2025-06-02 14:15:00 IST], next run at: 2025-06-02 14:15:00 IST)" (scheduled at 2025-06-02 14:15:00+05:30)
+2025-06-02 14:15:00,026 [INFO] Removed job 00078cafe8a343fa9749485ccc76e064
+2025-06-02 14:15:00,041 [INFO] [EMAIL] Subject: Reminder, To: recipient@example.com, Body: Reminder: Remind me to attend the client meeting today at 14:15
+2025-06-02 14:15:00,043 [INFO] Job "send_email (trigger: date[2025-06-02 14:15:00 IST], next run at: 2025-06-02 14:15:00 IST)" executed successfully
+2025-06-02 14:15:00,077 [INFO] Removed job 86a56b57d1fe473a846f33c11bbb045b
+2025-06-02 14:15:00,077 [INFO] Running job "send_webhook_notification (trigger: date[2025-06-02 14:15:00 IST], next run at: 2025-06-02 14:15:00 IST)" (scheduled at 2025-06-02 14:15:00+05:30)
+2025-06-02 14:15:00,087 [WARNING] DISCORD_WEBHOOK_URL not set in environment
+2025-06-02 14:15:00,089 [INFO] Job "send_webhook_notification (trigger: date[2025-06-02 14:15:00 IST], next run at: 2025-06-02 14:15:00 IST)" executed successfully
+2025-06-02 14:30:18,634 [INFO] Scheduler started
+2025-06-02 14:30:18,648 [INFO] GenAI Workspace API starting up...
+2025-06-02 14:30:18,650 [INFO] FAISS index found
+2025-06-02 14:30:18,652 [INFO] Data folder found
+2025-06-02 14:30:18,652 [INFO] Starting background scheduler thread...
+2025-06-02 14:30:18,655 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 14:30:18,655 [INFO] Scheduler initialized
+2025-06-02 14:30:18,656 [INFO] Starting sync at 2025-06-02 14:30:18
+2025-06-02 14:30:18,656 [INFO] Syncing from Google Drive...
+2025-06-02 14:30:20,502 [INFO] Google Drive sync completed
+2025-06-02 14:30:20,510 [INFO] Rebuilding FAISS index...
+2025-06-02 14:30:22,659 [INFO] FAISS index rebuilt successfully
+2025-06-02 14:30:22,664 [INFO] Sync #1 completed successfully
+2025-06-02 14:30:22,665 [INFO] Waiting 24 hours for next sync...
+2025-06-02 14:31:49,894 [INFO] Agent query: Remind me to attend the client meeting today at 14:32
+
+
+2025-06-02 14:31:53,962 [INFO] Added job "send_email" to job store "default"
+2025-06-02 14:31:54,005 [INFO] Added job "send_webhook_notification" to job store "default"
+2025-06-02 14:31:54,053 [INFO] Scheduled reminder at 2025-06-02 14:32:00
+2025-06-02 14:32:00,940 [INFO] Running job "send_webhook_notification (trigger: date[2025-06-02 14:32:00 IST], next run at: 2025-06-02 14:32:00 IST)" (scheduled at 2025-06-02 14:32:00+05:30)
+2025-06-02 14:32:00,940 [INFO] Removed job 92febad26a5c4ddcacbe6760c5e732d7
+2025-06-02 14:32:00,983 [WARNING] DISCORD_WEBHOOK_URL not set in environment
+2025-06-02 14:32:01,030 [INFO] Job "send_webhook_notification (trigger: date[2025-06-02 14:32:00 IST], next run at: 2025-06-02 14:32:00 IST)" executed successfully
+2025-06-02 14:32:01,040 [WARNING] Run time of job "send_email (trigger: date[2025-06-02 14:32:00 IST], next run at: 2025-06-02 14:32:00 IST)" was missed by 0:00:01.040512
+2025-06-02 14:32:01,040 [INFO] Removed job fd6b7dbd47294eec876b230cbad4afd9
+2025-06-02 15:44:48,989 [INFO] Agent query: hi
+2025-06-02 15:52:23,595 [INFO] Agent query: “Send an email to john.doe@example.com with subject 'Meeting Tomorrow' and say 'Hi John, let’s catch up tomorrow at 11 AM regarding the AI search system.'
+2025-06-02 15:52:24,885 [ERROR] Agent error: send_email() missing 2 required positional arguments: 'subject' and 'body'
+2025-06-02 15:57:46,985 [INFO] Scheduler started
+2025-06-02 15:57:46,997 [INFO] GenAI Workspace API starting up...
+2025-06-02 15:57:47,000 [INFO] FAISS index found
+2025-06-02 15:57:47,001 [INFO] Data folder found
+2025-06-02 15:57:47,001 [INFO] Starting background scheduler thread...
+2025-06-02 15:57:47,003 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 15:57:47,003 [INFO] Scheduler initialized
+2025-06-02 15:57:47,005 [INFO] Starting sync at 2025-06-02 15:57:47
+2025-06-02 15:57:47,007 [INFO] Syncing from Google Drive...
+2025-06-02 15:57:49,529 [INFO] Google Drive sync completed
+2025-06-02 15:57:49,541 [INFO] Rebuilding FAISS index...
+2025-06-02 15:57:51,566 [INFO] FAISS index rebuilt successfully
+2025-06-02 15:57:51,572 [INFO] Sync #1 completed successfully
+2025-06-02 15:57:51,572 [INFO] Waiting 24 hours for next sync...
+2025-06-02 16:01:12,162 [INFO] Scheduler started
+2025-06-02 16:01:12,197 [INFO] GenAI Workspace API starting up...
+2025-06-02 16:01:12,200 [INFO] FAISS index found
+2025-06-02 16:01:12,200 [INFO] Data folder found
+2025-06-02 16:01:12,203 [INFO] Starting background scheduler thread...
+2025-06-02 16:01:12,211 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 16:01:12,211 [INFO] Scheduler initialized
+2025-06-02 16:01:12,214 [INFO] Starting sync at 2025-06-02 16:01:12
+2025-06-02 16:01:12,216 [INFO] Syncing from Google Drive...
+2025-06-02 16:01:14,155 [INFO] Google Drive sync completed
+2025-06-02 16:01:14,155 [INFO] Rebuilding FAISS index...
+2025-06-02 16:01:16,140 [INFO] FAISS index rebuilt successfully
+2025-06-02 16:01:16,146 [INFO] Sync #1 completed successfully
+2025-06-02 16:01:16,146 [INFO] Waiting 24 hours for next sync...
+2025-06-02 16:24:44,592 [INFO] Scheduler started
+2025-06-02 16:24:44,603 [INFO] GenAI Workspace API starting up...
+2025-06-02 16:24:44,605 [INFO] FAISS index found
+2025-06-02 16:24:44,610 [INFO] Data folder found
+2025-06-02 16:24:44,613 [INFO] Starting background scheduler thread...
+2025-06-02 16:24:44,616 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 16:24:44,616 [INFO] Scheduler initialized
+2025-06-02 16:24:44,618 [INFO] Starting sync at 2025-06-02 16:24:44
+2025-06-02 16:24:44,618 [INFO] Syncing from Google Drive...
+2025-06-02 16:24:46,621 [INFO] Google Drive sync completed
+2025-06-02 16:24:46,639 [INFO] Rebuilding FAISS index...
+2025-06-02 16:24:48,537 [INFO] FAISS index rebuilt successfully
+2025-06-02 16:24:48,537 [INFO] Sync #1 completed successfully
+2025-06-02 16:24:48,539 [INFO] Waiting 24 hours for next sync...
+2025-06-02 16:32:20,118 [INFO] Scheduler started
+2025-06-02 16:32:20,124 [INFO] GenAI Workspace API starting up...
+2025-06-02 16:32:20,131 [INFO] FAISS index found
+2025-06-02 16:32:20,132 [INFO] Data folder found
+2025-06-02 16:32:20,135 [INFO] Starting background scheduler thread...
+2025-06-02 16:32:20,138 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 16:32:20,138 [INFO] Scheduler initialized
+2025-06-02 16:32:20,138 [INFO] Starting sync at 2025-06-02 16:32:20
+2025-06-02 16:32:20,138 [INFO] Syncing from Google Drive...
+2025-06-02 16:32:22,902 [INFO] Google Drive sync completed
+2025-06-02 16:32:22,910 [INFO] Rebuilding FAISS index...
+2025-06-02 16:32:24,791 [INFO] FAISS index rebuilt successfully
+2025-06-02 16:32:24,794 [INFO] Sync #1 completed successfully
+2025-06-02 16:32:24,795 [INFO] Waiting 24 hours for next sync...
+2025-06-02 16:38:27,823 [INFO] Scheduler started
+2025-06-02 16:38:27,833 [INFO] GenAI Workspace API starting up...
+2025-06-02 16:38:27,835 [INFO] FAISS index found
+2025-06-02 16:38:27,836 [INFO] Data folder found
+2025-06-02 16:38:27,837 [INFO] Starting background scheduler thread...
+2025-06-02 16:38:27,838 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 16:38:27,838 [INFO] Scheduler initialized
+2025-06-02 16:38:27,838 [INFO] Starting sync at 2025-06-02 16:38:27
+2025-06-02 16:38:27,840 [INFO] Syncing from Google Drive...
+2025-06-02 16:38:30,334 [INFO] Google Drive sync completed
+2025-06-02 16:38:30,358 [INFO] Rebuilding FAISS index...
+2025-06-02 16:38:32,198 [INFO] FAISS index rebuilt successfully
+2025-06-02 16:38:32,201 [INFO] Sync #1 completed successfully
+2025-06-02 16:38:32,203 [INFO] Waiting 24 hours for next sync...
+2025-06-02 16:58:26,669 [INFO] Scheduler started
+2025-06-02 16:58:26,688 [INFO] GenAI Workspace API starting up...
+2025-06-02 16:58:26,688 [INFO] FAISS index found
+2025-06-02 16:58:26,690 [INFO] Data folder found
+2025-06-02 16:58:26,690 [INFO] Starting background scheduler thread...
+2025-06-02 16:58:26,696 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 16:58:26,697 [INFO] Scheduler initialized
+2025-06-02 16:58:26,700 [INFO] Starting sync at 2025-06-02 16:58:26
+2025-06-02 16:58:26,703 [INFO] Syncing from Google Drive...
+2025-06-02 16:58:28,705 [INFO] Google Drive sync completed
+2025-06-02 16:58:28,711 [INFO] Rebuilding FAISS index...
+2025-06-02 16:58:30,648 [INFO] FAISS index rebuilt successfully
+2025-06-02 16:58:30,648 [INFO] Sync #1 completed successfully
+2025-06-02 16:58:30,655 [INFO] Waiting 24 hours for next sync...
+2025-06-02 17:00:00,019 [INFO] Running job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" (scheduled at 2025-06-02 17:00:00+05:30)
+2025-06-02 17:00:00,019 [INFO] Removed job 18263af8-bce4-46af-a0ef-f52b6e9767b8
+2025-06-02 17:00:00,028 [INFO] Job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" executed successfully
+2025-06-02 17:03:02,664 [INFO] Scheduler started
+2025-06-02 17:03:02,675 [INFO] GenAI Workspace API starting up...
+2025-06-02 17:03:02,679 [INFO] FAISS index found
+2025-06-02 17:03:02,681 [INFO] Data folder found
+2025-06-02 17:03:02,681 [INFO] Starting background scheduler thread...
+2025-06-02 17:03:02,686 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 17:03:02,686 [INFO] Scheduler initialized
+2025-06-02 17:03:02,686 [INFO] Starting sync at 2025-06-02 17:03:02
+2025-06-02 17:03:02,689 [INFO] Syncing from Google Drive...
+2025-06-02 17:03:04,548 [INFO] Google Drive sync completed
+2025-06-02 17:03:04,548 [INFO] Rebuilding FAISS index...
+2025-06-02 17:03:06,389 [INFO] FAISS index rebuilt successfully
+2025-06-02 17:03:06,389 [INFO] Sync #1 completed successfully
+2025-06-02 17:03:06,389 [INFO] Waiting 24 hours for next sync...
+2025-06-02 17:23:11,510 [INFO] Scheduler started
+2025-06-02 17:23:11,519 [INFO] GenAI Workspace API starting up...
+2025-06-02 17:23:11,527 [INFO] FAISS index found
+2025-06-02 17:23:11,527 [INFO] Data folder found
+2025-06-02 17:23:11,527 [INFO] Starting background scheduler thread...
+2025-06-02 17:23:11,533 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 17:23:11,533 [INFO] Scheduler initialized
+2025-06-02 17:23:11,533 [INFO] Starting sync at 2025-06-02 17:23:11
+2025-06-02 17:23:11,537 [INFO] Syncing from Google Drive...
+2025-06-02 17:23:13,367 [INFO] Google Drive sync completed
+2025-06-02 17:23:13,372 [INFO] Rebuilding FAISS index...
+2025-06-02 17:23:15,319 [INFO] FAISS index rebuilt successfully
+2025-06-02 17:23:15,327 [INFO] Sync #1 completed successfully
+2025-06-02 17:23:15,327 [INFO] Waiting 24 hours for next sync...
+2025-06-02 17:31:49,964 [INFO] Scheduler started
+2025-06-02 17:31:49,981 [INFO] GenAI Workspace API starting up...
+2025-06-02 17:31:49,987 [INFO] FAISS index found
+2025-06-02 17:31:49,992 [INFO] Data folder found
+2025-06-02 17:31:49,998 [INFO] Starting background scheduler thread...
+2025-06-02 17:31:50,005 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-02 17:31:50,005 [INFO] Scheduler initialized
+2025-06-02 17:31:50,007 [INFO] Starting sync at 2025-06-02 17:31:50
+2025-06-02 17:31:50,010 [INFO] Syncing from Google Drive...
+2025-06-02 17:31:52,108 [INFO] Google Drive sync completed
+2025-06-02 17:31:52,125 [INFO] Rebuilding FAISS index...
+2025-06-02 17:31:54,251 [INFO] FAISS index rebuilt successfully
+2025-06-02 17:31:54,252 [INFO] Sync #1 completed successfully
+2025-06-02 17:31:54,254 [INFO] Waiting 24 hours for next sync...
+2025-06-03 09:04:05,960 [INFO] Scheduler started
+2025-06-03 09:04:05,976 [INFO] GenAI Workspace API starting up...
+2025-06-03 09:04:05,976 [INFO] FAISS index found
+2025-06-03 09:04:05,984 [INFO] Data folder found
+2025-06-03 09:04:05,984 [INFO] Starting background scheduler thread...
+2025-06-03 09:04:05,984 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-03 09:04:05,984 [INFO] Scheduler initialized
+2025-06-03 09:04:05,984 [INFO] Starting sync at 2025-06-03 09:04:05
+2025-06-03 09:04:05,984 [INFO] Syncing from Google Drive...
+2025-06-03 09:04:08,321 [INFO] Google Drive sync completed
+2025-06-03 09:04:08,325 [INFO] Rebuilding FAISS index...
+2025-06-03 09:04:10,551 [INFO] FAISS index rebuilt successfully
+2025-06-03 09:04:10,555 [INFO] Sync #1 completed successfully
+2025-06-03 09:04:10,555 [INFO] Waiting 24 hours for next sync...
+2025-06-03 09:05:36,127 [INFO] Scheduler started
+2025-06-03 09:05:36,134 [INFO] GenAI Workspace API starting up...
+2025-06-03 09:05:36,138 [INFO] FAISS index found
+2025-06-03 09:05:36,138 [INFO] Data folder found
+2025-06-03 09:05:36,138 [INFO] Starting background scheduler thread...
+2025-06-03 09:05:36,140 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-03 09:05:36,140 [INFO] Scheduler initialized
+2025-06-03 09:05:36,140 [INFO] Starting sync at 2025-06-03 09:05:36
+2025-06-03 09:05:36,140 [INFO] Syncing from Google Drive...
+2025-06-03 09:05:38,333 [INFO] Google Drive sync completed
+2025-06-03 09:05:38,349 [INFO] Rebuilding FAISS index...
+2025-06-03 09:05:40,187 [INFO] FAISS index rebuilt successfully
+2025-06-03 09:05:40,203 [INFO] Sync #1 completed successfully
+2025-06-03 09:05:40,203 [INFO] Waiting 24 hours for next sync...
+2025-06-04 09:11:23,110 [INFO] Scheduler started
+2025-06-04 09:11:23,120 [INFO] GenAI Workspace API starting up...
+2025-06-04 09:11:23,121 [INFO] FAISS index found
+2025-06-04 09:11:23,121 [INFO] Data folder found
+2025-06-04 09:11:23,121 [INFO] Starting background scheduler thread...
+2025-06-04 09:11:23,127 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 09:11:23,127 [INFO] Scheduler initialized
+2025-06-04 09:11:23,129 [INFO] Starting sync at 2025-06-04 09:11:23
+2025-06-04 09:11:23,168 [INFO] Syncing from Google Drive...
+2025-06-04 09:11:25,331 [INFO] Google Drive sync completed
+2025-06-04 09:11:25,341 [INFO] Rebuilding FAISS index...
+2025-06-04 09:11:28,559 [INFO] FAISS index rebuilt successfully
+2025-06-04 09:11:28,562 [INFO] Sync #1 completed successfully
+2025-06-04 09:11:28,564 [INFO] Waiting 24 hours for next sync...
+2025-06-04 10:26:47,363 [INFO] Scheduler started
+2025-06-04 10:26:47,375 [INFO] GenAI Workspace API starting up...
+2025-06-04 10:26:47,375 [INFO] FAISS index found
+2025-06-04 10:26:47,375 [INFO] Data folder found
+2025-06-04 10:26:47,375 [INFO] Starting background scheduler thread...
+2025-06-04 10:26:47,379 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 10:26:47,379 [INFO] Scheduler initialized
+2025-06-04 10:26:47,379 [INFO] Starting sync at 2025-06-04 10:26:47
+2025-06-04 10:26:47,382 [INFO] Syncing from Google Drive...
+2025-06-04 10:26:49,155 [INFO] Google Drive sync completed
+2025-06-04 10:26:49,164 [INFO] Rebuilding FAISS index...
+2025-06-04 10:26:51,181 [INFO] FAISS index rebuilt successfully
+2025-06-04 10:26:51,183 [INFO] Sync #1 completed successfully
+2025-06-04 10:26:51,183 [INFO] Waiting 24 hours for next sync...
+2025-06-04 10:28:53,552 [INFO] Assistant request: Hi
+2025-06-04 10:31:54,511 [INFO] Scheduler started
+2025-06-04 10:31:54,524 [INFO] GenAI Workspace API starting up...
+2025-06-04 10:31:54,532 [INFO] FAISS index found
+2025-06-04 10:31:54,534 [INFO] Data folder found
+2025-06-04 10:31:54,534 [INFO] Starting background scheduler thread...
+2025-06-04 10:31:54,548 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 10:31:54,548 [INFO] Scheduler initialized
+2025-06-04 10:31:54,550 [INFO] Starting sync at 2025-06-04 10:31:54
+2025-06-04 10:31:54,552 [INFO] Syncing from Google Drive...
+2025-06-04 10:31:56,416 [INFO] Google Drive sync completed
+2025-06-04 10:31:56,432 [INFO] Rebuilding FAISS index...
+2025-06-04 10:31:58,774 [INFO] FAISS index rebuilt successfully
+2025-06-04 10:31:58,777 [INFO] Sync #1 completed successfully
+2025-06-04 10:31:58,777 [INFO] Waiting 24 hours for next sync...
+2025-06-04 10:49:42,307 [INFO] Scheduler started
+2025-06-04 10:49:43,315 [INFO] GenAI Workspace API starting up...
+2025-06-04 10:49:43,320 [INFO] FAISS index found
+2025-06-04 10:49:43,325 [INFO] Data folder found
+2025-06-04 10:49:43,331 [INFO] Starting background scheduler thread...
+2025-06-04 10:49:43,339 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 10:49:43,340 [INFO] Scheduler initialized
+2025-06-04 10:49:43,347 [INFO] Starting sync at 2025-06-04 10:49:43
+2025-06-04 10:49:43,508 [INFO] Syncing from Google Drive...
+2025-06-04 10:49:46,159 [INFO] Google Drive sync completed
+2025-06-04 10:49:46,179 [INFO] Rebuilding FAISS index...
+2025-06-04 10:49:48,240 [INFO] FAISS index rebuilt successfully
+2025-06-04 10:49:48,240 [INFO] Sync #1 completed successfully
+2025-06-04 10:49:48,243 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:02:57,729 [INFO] Scheduler started
+2025-06-04 11:02:57,736 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:02:57,743 [INFO] FAISS index found
+2025-06-04 11:02:57,745 [INFO] Data folder found
+2025-06-04 11:02:57,747 [INFO] Starting background scheduler thread...
+2025-06-04 11:02:57,755 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:02:57,756 [INFO] Scheduler initialized
+2025-06-04 11:02:57,756 [INFO] Starting sync at 2025-06-04 11:02:57
+2025-06-04 11:02:57,759 [INFO] Syncing from Google Drive...
+2025-06-04 11:02:59,938 [INFO] Google Drive sync completed
+2025-06-04 11:02:59,957 [INFO] Rebuilding FAISS index...
+2025-06-04 11:03:02,018 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:03:02,018 [INFO] Sync #1 completed successfully
+2025-06-04 11:03:02,018 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:08:32,019 [INFO] Scheduler started
+2025-06-04 11:08:32,043 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:08:32,045 [INFO] FAISS index found
+2025-06-04 11:08:32,047 [INFO] Data folder found
+2025-06-04 11:08:32,051 [INFO] Starting background scheduler thread...
+2025-06-04 11:08:32,055 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:08:32,055 [INFO] Scheduler initialized
+2025-06-04 11:08:32,055 [INFO] Starting sync at 2025-06-04 11:08:32
+2025-06-04 11:08:32,059 [INFO] Syncing from Google Drive...
+2025-06-04 11:08:35,974 [INFO] Google Drive sync completed
+2025-06-04 11:08:35,982 [INFO] Rebuilding FAISS index...
+2025-06-04 11:08:38,067 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:08:38,067 [INFO] Sync #1 completed successfully
+2025-06-04 11:08:38,067 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:21:54,497 [INFO] Scheduler started
+2025-06-04 11:21:54,506 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:21:54,510 [INFO] FAISS index found
+2025-06-04 11:21:54,510 [INFO] Data folder found
+2025-06-04 11:21:54,511 [INFO] Starting background scheduler thread...
+2025-06-04 11:21:54,511 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:21:54,515 [INFO] Scheduler initialized
+2025-06-04 11:21:54,515 [INFO] Starting sync at 2025-06-04 11:21:54
+2025-06-04 11:21:54,515 [INFO] Syncing from Google Drive...
+2025-06-04 11:21:57,608 [INFO] Google Drive sync completed
+2025-06-04 11:21:57,611 [INFO] Rebuilding FAISS index...
+2025-06-04 11:21:59,774 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:21:59,776 [INFO] Sync #1 completed successfully
+2025-06-04 11:21:59,776 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:28:13,389 [INFO] Scheduler started
+2025-06-04 11:28:13,408 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:28:13,409 [INFO] FAISS index found
+2025-06-04 11:28:13,411 [INFO] Data folder found
+2025-06-04 11:28:13,412 [INFO] Starting background scheduler thread...
+2025-06-04 11:28:13,415 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:28:13,415 [INFO] Scheduler initialized
+2025-06-04 11:28:13,415 [INFO] Starting sync at 2025-06-04 11:28:13
+2025-06-04 11:28:13,415 [INFO] Syncing from Google Drive...
+2025-06-04 11:28:15,479 [INFO] Google Drive sync completed
+2025-06-04 11:28:15,481 [INFO] Rebuilding FAISS index...
+2025-06-04 11:28:17,264 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:28:17,264 [INFO] Sync #1 completed successfully
+2025-06-04 11:28:17,264 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:34:39,401 [INFO] Scheduler started
+2025-06-04 11:34:39,439 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:34:39,439 [INFO] FAISS index found
+2025-06-04 11:34:39,439 [INFO] Data folder found
+2025-06-04 11:34:39,439 [INFO] Starting background scheduler thread...
+2025-06-04 11:34:39,444 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:34:39,444 [INFO] Scheduler initialized
+2025-06-04 11:34:39,444 [INFO] Starting sync at 2025-06-04 11:34:39
+2025-06-04 11:34:39,451 [INFO] Syncing from Google Drive...
+2025-06-04 11:34:42,128 [INFO] Google Drive sync completed
+2025-06-04 11:34:42,128 [INFO] Rebuilding FAISS index...
+2025-06-04 11:34:44,280 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:34:44,281 [INFO] Sync #1 completed successfully
+2025-06-04 11:34:44,283 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:39:56,226 [INFO] Scheduler started
+2025-06-04 11:39:56,236 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:39:56,237 [INFO] FAISS index found
+2025-06-04 11:39:56,238 [INFO] Data folder found
+2025-06-04 11:39:56,239 [INFO] Starting background scheduler thread...
+2025-06-04 11:39:56,239 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:39:56,239 [INFO] Scheduler initialized
+2025-06-04 11:39:56,239 [INFO] Starting sync at 2025-06-04 11:39:56
+2025-06-04 11:39:56,243 [INFO] Syncing from Google Drive...
+2025-06-04 11:39:58,390 [INFO] Google Drive sync completed
+2025-06-04 11:39:58,399 [INFO] Rebuilding FAISS index...
+2025-06-04 11:40:00,419 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:40:00,419 [INFO] Sync #1 completed successfully
+2025-06-04 11:40:00,419 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:41:39,418 [INFO] Scheduler started
+2025-06-04 11:41:39,426 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:41:39,427 [INFO] FAISS index found
+2025-06-04 11:41:39,428 [INFO] Data folder found
+2025-06-04 11:41:39,428 [INFO] Starting background scheduler thread...
+2025-06-04 11:41:39,430 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:41:39,430 [INFO] Scheduler initialized
+2025-06-04 11:41:39,431 [INFO] Starting sync at 2025-06-04 11:41:39
+2025-06-04 11:41:39,434 [INFO] Syncing from Google Drive...
+2025-06-04 11:41:41,515 [INFO] Google Drive sync completed
+2025-06-04 11:41:41,523 [INFO] Rebuilding FAISS index...
+2025-06-04 11:41:43,484 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:41:43,484 [INFO] Sync #1 completed successfully
+2025-06-04 11:41:43,484 [INFO] Waiting 24 hours for next sync...
+2025-06-04 11:51:56,372 [INFO] Scheduler started
+2025-06-04 11:51:56,382 [INFO] GenAI Workspace API starting up...
+2025-06-04 11:51:56,384 [INFO] FAISS index found
+2025-06-04 11:51:56,384 [INFO] Data folder found
+2025-06-04 11:51:56,386 [INFO] Starting background scheduler thread...
+2025-06-04 11:51:56,387 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 11:51:56,387 [INFO] Scheduler initialized
+2025-06-04 11:51:56,391 [INFO] Starting sync at 2025-06-04 11:51:56
+2025-06-04 11:51:56,391 [INFO] Syncing from Google Drive...
+2025-06-04 11:51:58,818 [INFO] Google Drive sync completed
+2025-06-04 11:51:58,826 [INFO] Rebuilding FAISS index...
+2025-06-04 11:52:00,816 [INFO] FAISS index rebuilt successfully
+2025-06-04 11:52:00,817 [INFO] Sync #1 completed successfully
+2025-06-04 11:52:00,817 [INFO] Waiting 24 hours for next sync...
+2025-06-04 12:07:40,200 [INFO] Assistant request: hi
+2025-06-04 12:07:49,478 [INFO] Assistant request: what can you do
+2025-06-04 12:08:34,294 [INFO] Assistant request: can you search from internal documents 
+2025-06-04 12:09:00,743 [INFO] Assistant request: i asked will you give me the answers from internal documnets 
+2025-06-04 12:09:45,978 [INFO] Search request: is there any policy documents 
+2025-06-04 12:10:05,187 [INFO] Assistant request: is there any policy documents
+2025-06-04 12:22:57,317 [INFO] Scheduler started
+2025-06-04 12:22:57,319 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 1 day, 19:22:57.319652
+2025-06-04 12:22:57,319 [INFO] Removed job 03a35a06-c9e9-488d-a856-13fa6d06532d
+2025-06-04 12:22:57,333 [INFO] GenAI Workspace API starting up...
+2025-06-04 12:22:57,342 [INFO] FAISS index found
+2025-06-04 12:22:57,344 [INFO] Data folder found
+2025-06-04 12:22:57,344 [INFO] Starting background scheduler thread...
+2025-06-04 12:22:57,349 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 12:22:57,350 [INFO] Scheduler initialized
+2025-06-04 12:22:57,354 [INFO] Starting sync at 2025-06-04 12:22:57
+2025-06-04 12:22:57,364 [INFO] Syncing from Google Drive...
+2025-06-04 12:23:15,171 [INFO] Scheduler started
+2025-06-04 12:23:15,171 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 1 day, 19:23:15.171526
+2025-06-04 12:23:15,174 [INFO] Removed job 6cb162df-8444-40e6-8e38-d24d7c9a2958
+2025-06-04 12:23:15,184 [INFO] GenAI Workspace API starting up...
+2025-06-04 12:23:15,184 [INFO] FAISS index found
+2025-06-04 12:23:15,184 [INFO] Data folder found
+2025-06-04 12:23:15,184 [INFO] Starting background scheduler thread...
+2025-06-04 12:23:15,188 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 12:23:15,188 [INFO] Scheduler initialized
+2025-06-04 12:23:15,188 [INFO] Starting sync at 2025-06-04 12:23:15
+2025-06-04 12:23:15,190 [INFO] Syncing from Google Drive...
+2025-06-04 12:23:16,794 [INFO] Google Drive sync completed
+2025-06-04 12:23:16,816 [INFO] Rebuilding FAISS index...
+2025-06-04 12:23:18,773 [INFO] FAISS index rebuilt successfully
+2025-06-04 12:23:18,773 [INFO] Sync #1 completed successfully
+2025-06-04 12:23:18,778 [INFO] Waiting 24 hours for next sync...
+2025-06-04 12:28:16,615 [INFO] Scheduler started
+2025-06-04 12:28:16,615 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 1 day, 19:28:16.615324
+2025-06-04 12:28:16,615 [INFO] Removed job 318dc20c-85c3-4cf0-854d-d9b09e73bd7d
+2025-06-04 12:28:16,633 [INFO] GenAI Workspace API starting up...
+2025-06-04 12:28:16,633 [INFO] FAISS index found
+2025-06-04 12:28:16,633 [INFO] Data folder found
+2025-06-04 12:28:16,637 [INFO] Starting background scheduler thread...
+2025-06-04 12:28:16,637 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-04 12:28:16,637 [INFO] Scheduler initialized
+2025-06-04 12:28:16,637 [INFO] Starting sync at 2025-06-04 12:28:16
+2025-06-04 12:28:16,637 [INFO] Syncing from Google Drive...
+2025-06-04 12:28:19,586 [INFO] Google Drive sync completed
+2025-06-04 12:28:19,598 [INFO] Rebuilding FAISS index...
+2025-06-04 12:28:21,277 [INFO] FAISS index rebuilt successfully
+2025-06-04 12:28:21,277 [INFO] Sync #1 completed successfully
+2025-06-04 12:28:21,277 [INFO] Waiting 24 hours for next sync...
+2025-06-05 08:35:31,080 [INFO] Scheduler started
+2025-06-05 08:35:31,130 [INFO] GenAI Workspace API starting up...
+2025-06-05 08:35:31,130 [INFO] FAISS index found
+2025-06-05 08:35:31,144 [INFO] Data folder found
+2025-06-05 08:35:31,144 [INFO] Starting background scheduler thread...
+2025-06-05 08:35:31,160 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-05 08:35:31,160 [INFO] Scheduler initialized
+2025-06-05 08:35:31,160 [INFO] Starting sync at 2025-06-05 08:35:31
+2025-06-05 08:35:31,176 [INFO] Syncing from Google Drive...
+2025-06-05 08:35:34,708 [INFO] Google Drive sync completed
+2025-06-05 08:35:34,948 [INFO] Rebuilding FAISS index...
+2025-06-05 08:35:36,856 [INFO] FAISS index rebuilt successfully
+2025-06-05 08:35:36,907 [INFO] Sync #1 completed successfully
+2025-06-05 08:35:36,945 [INFO] Waiting 24 hours for next sync...
+2025-06-05 08:36:58,398 [INFO] Assistant request: hi
+2025-06-05 08:37:22,935 [INFO] Assistant request: what can you do
+2025-06-05 08:37:53,603 [INFO] Search request: hi
+2025-06-05 08:37:59,446 [INFO] Search request: what can you do
+2025-06-06 06:45:17,950 [INFO] Scheduler started
+2025-06-06 06:45:17,950 [INFO] GenAI Workspace API starting up...
+2025-06-06 06:45:17,950 [INFO] FAISS index found
+2025-06-06 06:45:17,950 [INFO] Data folder found
+2025-06-06 06:45:17,950 [INFO] Starting background scheduler thread...
+2025-06-06 06:45:17,950 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-06 06:45:17,950 [INFO] Scheduler initialized
+2025-06-06 06:45:17,950 [INFO] Starting sync at 2025-06-06 06:45:17
+2025-06-06 06:45:17,950 [INFO] Syncing from Google Drive...
+2025-06-06 06:45:20,433 [INFO] Google Drive sync completed
+2025-06-06 06:45:20,449 [INFO] Rebuilding FAISS index...
+2025-06-06 06:45:22,852 [INFO] FAISS index rebuilt successfully
+2025-06-06 06:45:22,852 [INFO] Sync #1 completed successfully
+2025-06-06 06:45:22,860 [INFO] Waiting 24 hours for next sync...
+2025-06-06 06:46:36,977 [INFO] Scheduler started
+2025-06-06 06:46:36,979 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 3 days, 13:46:36.979036
+2025-06-06 06:46:36,979 [INFO] Removed job f54095fe-cf26-41ea-ac79-af517933a042
+2025-06-06 06:46:36,987 [INFO] GenAI Workspace API starting up...
+2025-06-06 06:46:36,987 [INFO] FAISS index found
+2025-06-06 06:46:36,987 [INFO] Data folder found
+2025-06-06 06:46:36,993 [INFO] Starting background scheduler thread...
+2025-06-06 06:46:36,993 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-06 06:46:36,993 [INFO] Scheduler initialized
+2025-06-06 06:46:36,993 [INFO] Starting sync at 2025-06-06 06:46:36
+2025-06-06 06:46:36,993 [INFO] Syncing from Google Drive...
+2025-06-06 06:46:38,738 [INFO] Google Drive sync completed
+2025-06-06 06:46:38,738 [INFO] Rebuilding FAISS index...
+2025-06-06 06:46:40,023 [INFO] FAISS index rebuilt successfully
+2025-06-06 06:46:40,023 [INFO] Sync #1 completed successfully
+2025-06-06 06:46:40,023 [INFO] Waiting 24 hours for next sync...
+2025-06-13 12:09:54,559 [INFO] Scheduler started
+2025-06-13 12:09:54,666 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 10 days, 19:09:54.666640
+2025-06-13 12:09:54,667 [INFO] Removed job 62d8cb2e-155b-4b07-b556-758b6dfd541e
+2025-06-13 12:09:54,717 [INFO] GenAI Workspace API starting up...
+2025-06-13 12:09:54,736 [INFO] FAISS index found
+2025-06-13 12:09:54,745 [INFO] Data folder found
+2025-06-13 12:09:54,754 [INFO] Starting background scheduler thread...
+2025-06-13 12:09:54,784 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-13 12:09:54,784 [INFO] Scheduler initialized
+2025-06-13 12:09:54,795 [INFO] Starting sync at 2025-06-13 12:09:54
+2025-06-13 12:09:54,836 [INFO] Syncing from Google Drive...
+2025-06-13 12:09:59,715 [INFO] Google Drive sync completed
+2025-06-13 12:09:59,724 [INFO] Rebuilding FAISS index...
+2025-06-13 12:10:01,778 [INFO] FAISS index rebuilt successfully
+2025-06-13 12:10:01,778 [INFO] Sync #1 completed successfully
+2025-06-13 12:10:01,779 [INFO] Waiting 24 hours for next sync...
+2025-06-13 12:11:51,352 [INFO] Assistant request: hi
+2025-06-13 12:12:42,846 [INFO] Scheduler started
+2025-06-13 12:12:42,848 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 10 days, 19:12:42.848254
+2025-06-13 12:12:42,854 [INFO] Removed job c55e1851-282c-4d37-a949-2eea3661c406
+2025-06-13 12:12:42,932 [INFO] GenAI Workspace API starting up...
+2025-06-13 12:12:42,937 [INFO] FAISS index found
+2025-06-13 12:12:42,946 [INFO] Data folder found
+2025-06-13 12:12:42,951 [INFO] Starting background scheduler thread...
+2025-06-13 12:12:42,972 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-13 12:12:42,973 [INFO] Scheduler initialized
+2025-06-13 12:12:42,983 [INFO] Starting sync at 2025-06-13 12:12:42
+2025-06-13 12:12:43,000 [INFO] Syncing from Google Drive...
+2025-06-13 12:12:46,090 [INFO] Google Drive sync completed
+2025-06-13 12:12:46,264 [INFO] Rebuilding FAISS index...
+2025-06-13 12:12:48,918 [INFO] FAISS index rebuilt successfully
+2025-06-13 12:12:48,921 [INFO] Sync #1 completed successfully
+2025-06-13 12:12:48,922 [INFO] Waiting 24 hours for next sync...
+2025-06-13 12:12:54,617 [INFO] Assistant request: what can you do
+2025-06-13 12:19:50,641 [INFO] Search request: is there policies in the technova solutions
+2025-06-13 12:25:56,091 [INFO] Search request: what can you do
+2025-06-13 12:27:00,204 [INFO] Assistant request: explain about cryptography syllabus
+2025-06-13 12:45:43,601 [INFO] Assistant request: i
+2025-06-24 14:53:41,924 [INFO] Scheduler started
+2025-06-24 14:53:41,924 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 21 days, 21:53:41.924763
+2025-06-24 14:53:41,925 [INFO] Removed job ee19f322-ae26-4a71-a2bc-0f1c0092abe3
+2025-06-24 14:53:41,938 [INFO] GenAI Workspace API starting up...
+2025-06-24 14:53:41,939 [INFO] FAISS index found
+2025-06-24 14:53:41,940 [INFO] Data folder found
+2025-06-24 14:53:41,940 [INFO] Starting background scheduler thread...
+2025-06-24 14:53:41,945 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-24 14:53:41,945 [INFO] Scheduler initialized
+2025-06-24 14:53:41,945 [INFO] Starting sync at 2025-06-24 14:53:41
+2025-06-24 14:53:41,947 [INFO] Syncing from Google Drive...
+2025-06-24 14:53:44,388 [INFO] Google Drive sync completed
+2025-06-24 14:53:44,398 [INFO] Rebuilding FAISS index...
+2025-06-24 14:53:46,541 [INFO] FAISS index rebuilt successfully
+2025-06-24 14:53:46,554 [INFO] Sync #1 completed successfully
+2025-06-24 14:53:46,607 [INFO] Waiting 24 hours for next sync...
+2025-06-24 14:54:45,929 [INFO] Assistant request: hi
+2025-06-24 14:55:08,808 [INFO] Assistant request: Generate a Telugu short story about a forgotten freedom fighter
+2025-06-24 14:56:28,943 [INFO] Search request: hi
+2025-06-24 15:02:54,667 [INFO] Scheduler started
+2025-06-24 15:02:54,667 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 21 days, 22:02:54.667160
+2025-06-24 15:02:54,668 [INFO] Removed job 235d758b-4413-496f-a50c-ae871c2d424a
+2025-06-24 15:02:54,682 [INFO] GenAI Workspace API starting up...
+2025-06-24 15:02:54,686 [INFO] FAISS index found
+2025-06-24 15:02:54,688 [INFO] Data folder found
+2025-06-24 15:02:54,689 [INFO] Starting background scheduler thread...
+2025-06-24 15:02:54,692 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-06-24 15:02:54,692 [INFO] Scheduler initialized
+2025-06-24 15:02:54,693 [INFO] Starting sync at 2025-06-24 15:02:54
+2025-06-24 15:02:54,695 [INFO] Syncing from Google Drive...
+2025-06-24 15:02:56,359 [INFO] Google Drive sync completed
+2025-06-24 15:02:56,375 [INFO] Rebuilding FAISS index...
+2025-06-24 15:02:58,317 [INFO] FAISS index rebuilt successfully
+2025-06-24 15:02:58,318 [INFO] Sync #1 completed successfully
+2025-06-24 15:02:58,318 [INFO] Waiting 24 hours for next sync...
+2025-06-24 15:08:35,454 [INFO] Assistant request: Generate a Telugu short story about a forgotten freedom fighter. use search web tool 
+2025-06-24 15:09:00,758 [INFO] Assistant request: you can use search web tool
+2025-07-10 14:15:53,142 [INFO] Scheduler started
+2025-07-10 14:15:53,154 [INFO] GenAI Workspace API starting up...
+2025-07-10 14:15:53,155 [INFO] FAISS index found
+2025-07-10 14:15:53,156 [INFO] Data folder found
+2025-07-10 14:15:53,158 [INFO] Starting background scheduler thread...
+2025-07-10 14:15:53,161 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-07-10 14:15:53,161 [INFO] Scheduler initialized
+2025-07-10 14:15:53,162 [INFO] Starting sync at 2025-07-10 14:15:53
+2025-07-10 14:15:53,163 [INFO] Syncing from Google Drive...
+2025-07-10 14:16:34,824 [INFO] Google Drive sync completed
+2025-07-10 14:16:34,852 [INFO] Rebuilding FAISS index...
+2025-07-10 14:16:37,845 [INFO] FAISS index rebuilt successfully
+2025-07-10 14:16:37,846 [INFO] Sync #1 completed successfully
+2025-07-10 14:16:37,847 [INFO] Waiting 24 hours for next sync...
+2025-07-10 14:28:17,836 [INFO] Scheduler started
+2025-07-10 14:28:17,846 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 37 days, 21:28:17.846224
+2025-07-10 14:28:17,847 [INFO] Removed job 8b3e5df4-fe88-4555-81a5-d9eadf25a13c
+2025-07-10 14:28:17,872 [INFO] GenAI Workspace API starting up...
+2025-07-10 14:28:17,873 [INFO] FAISS index found
+2025-07-10 14:28:17,874 [INFO] Data folder found
+2025-07-10 14:28:17,875 [INFO] Starting background scheduler thread...
+2025-07-10 14:28:17,877 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-07-10 14:28:17,877 [INFO] Scheduler initialized
+2025-07-10 14:28:17,879 [INFO] Starting sync at 2025-07-10 14:28:17
+2025-07-10 14:28:17,882 [INFO] Syncing from Google Drive...
+2025-07-10 14:28:21,296 [INFO] Google Drive sync completed
+2025-07-10 14:28:21,311 [INFO] Rebuilding FAISS index...
+2025-07-10 14:28:27,241 [INFO] FAISS index rebuilt successfully
+2025-07-10 14:28:27,242 [INFO] Sync #1 completed successfully
+2025-07-10 14:28:27,243 [INFO] Waiting 24 hours for next sync...
+2025-07-10 14:29:45,208 [INFO] Scheduler started
+2025-07-10 14:29:45,209 [WARNING] Run time of job "schedule_reminder.<locals>.reminder_job (trigger: date[2025-06-02 17:00:00 IST], next run at: 2025-06-02 17:00:00 IST)" was missed by 37 days, 21:29:45.209061
+2025-07-10 14:29:45,209 [INFO] Removed job b0633761-c9ee-4626-b68f-82f2fa21e4e3
+2025-07-10 14:29:45,224 [INFO] GenAI Workspace API starting up...
+2025-07-10 14:29:45,225 [INFO] FAISS index found
+2025-07-10 14:29:45,226 [INFO] Data folder found
+2025-07-10 14:29:45,226 [INFO] Starting background scheduler thread...
+2025-07-10 14:29:45,228 [INFO] Automatic scheduler started - syncing every 24 hours
+2025-07-10 14:29:45,228 [INFO] Scheduler initialized
+2025-07-10 14:29:45,228 [INFO] Starting sync at 2025-07-10 14:29:45
+2025-07-10 14:29:45,230 [INFO] Syncing from Google Drive...
+2025-07-10 14:29:47,108 [INFO] Google Drive sync completed
+2025-07-10 14:29:47,115 [INFO] Rebuilding FAISS index...
+2025-07-10 14:29:49,392 [INFO] FAISS index rebuilt successfully
+2025-07-10 14:29:49,393 [INFO] Sync #1 completed successfully
+2025-07-10 14:29:49,393 [INFO] Waiting 24 hours for next sync...
+2025-07-10 14:33:03,434 [INFO] Assistant request: hi
+2025-07-10 14:35:23,499 [INFO] Assistant request: what can you do?
+2025-07-10 14:40:21,045 [INFO] Search request: hi
+2025-07-10 14:40:27,704 [INFO] Search request: what can you do
